@@ -39,9 +39,9 @@
 //             |SHFT | SPC | LWR |   | RSE | BCKSPC | SHFT|
                         bindings = <
    &kp APOS    &kp COMMA   &kp DOT       &kp P        &kp Y       &kp F           &kp G           &kp C          &kp R        &kp L   
-   &mt LGUI A  &mt LALT O  &mt LSHIFT E  &mt LCTRL U  &kp I       &kp D           &mt RCTRL H     &mt RSHIFT T   &mt RALT N   &mt RGUI S
+   &mt LGUI A  &mt LALT O  &mt LSHIFT E  &mt LCTRL U  &kp I       &kp D           &mt RCTRL H     &mt RSHFT T   &mt RALT N   &mt RGUI S
    &kp SEMI    &kp Q       &kp J         &kp K        &kp X       &kp B           &kp M           &kp W          &kp V        &kp Z
-   &none       &none       &kp LSHIFT    &kp SPACE    &mo LOWER   &mo RAISE       &kp BSPC        &kp RSHIFT     &none        &none 
+   &none       &none       &kp LSHIFT    &kp SPACE    &mo LOWER   &mo RAISE       &kp BSPC        &kp RSHFT     &none        &none 
                         >;
                 };
                 QWERTY {
