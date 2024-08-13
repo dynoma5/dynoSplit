@@ -1,0 +1,5 @@
+config SHIELD_DYNOSPLIT_LEFT
+    def_bool $(shields_list_contains,dynoSplit_left)
+
+config SHIELD_DYNOSPLIT_RIGHT
+    def_bool $(shields_list_contains,dynoSplit_right)
