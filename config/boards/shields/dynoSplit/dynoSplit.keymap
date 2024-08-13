@@ -32,7 +32,7 @@
    &kp APOS    &kp COMMA   &kp DOT       &kp P        &kp Y       &kp F           &kp G           &kp C          &kp R        &kp L   
    &mt LGUI A  &mt LALT O  &mt LSHIFT E  &mt LCTRL U  &kp I       &kp D           &mt RCTRL H     &mt RSHIFT T   &mt RALT N   &mt RGUI S
    &kp SEMI    &kp Q       &kp J         &kp K        &kp X       &kp B           &kp M           &kp W          &kp V        &kp Z
-                           &kp LSHIFT    &kp SPACE    &mo LOWER   &mo RAISE       &kp BSPC        &kp RSHIFT
+   &none       &none       &kp LSHIFT    &kp SPACE    &mo LOWER   &mo RAISE       &kp BSPC        &kp RSHIFT     &none        &none 
                         >;
                 };
                 QWERTY {
@@ -45,7 +45,7 @@
    &kp Q    &kp W   &kp E  &kp R  &kp T       &kp Y   &kp U    &kp I       &kp O   &kp P   
    &kp A    &kp S   &kp D  &kp F  &kp G       &kp H   &kp J    &kp K       &kp L   &kp SEMI
    &kp Z    &kp X   &kp C  &kp V  &kp B       &kp N   &kp M    &kp COMMA   &kp DOT &kp FSLH
-                    &trans &trans &trans      &trans  &trans   &trans
+   &none    &none   &trans &trans &trans      &trans  &trans   &trans      &none   &none
                         >;
                 };
 
@@ -59,7 +59,7 @@
    &kp PG_UP &kp BSPC &kp UP   &kp DEL   &kp PG_DN   &kp MINUS &kp N7  &kp N8     &kp N9   &kp PLUS   
    &kp HOME  &kp LEFT &kp DOWN &kp RIGHT &kp END     &kp SLASH &kp N4  &kp N5     &kp N6   &kp STAR
    &kp ESC   &kp TAB  &trans   &kp ENTER &trans      &trans    &kp N1  &kp N2     &kp N3   &kp N0
-                      &trans   &trans    &trans      &trans    &trans  &trans
+   &none     &none    &trans   &trans    &trans      &trans    &trans  &trans     &none    &none
                         >;
                 };
                 RAISE {
@@ -72,7 +72,7 @@
    &kp TILDE &kp UNDER &kp LBKT &kp RBKT &kp CARET   &kp EXCL  &kp LT    &kp GT     &kp EQUAL   &trans   
    &kp BSLH  &kp FSLH  &kp LBRC &kp RBRC &kp STAR    &kp QMARK &kp LPAR  &kp RPAR   &kp MINUS   &trans
    &kp HASH  &kp DLLR  &kp PIPE &kp AMPS &kp GRAVE   &kp PLUS  &kp PRCNT &kp DQT    &kp AT      &trans
-                       &trans   &trans   &trans      &trans    &trans    &trans
+   &none     &none     &trans   &trans   &trans      &trans    &trans    &trans     &none       &none
                         >;
                 };
                 ADJUST {
@@ -85,7 +85,7 @@
    &trans  &bt BT_SEL 3 &bt BT_SEL 2 &bt BT_SEL 1 &bt BT_SEL 0   &trans  &kp F7  &kp F8   &kp F9   &kp F12   
    &trans  &trans       &trans       &to QWERTY   &to DEFAULT    &trans  &kp F4  &kp F5   &kp F6   &kp F11
    &trans  &trans       &trans       &trans       &trans         &trans  &kp F1  &kp F2   &kp F3   &kp F10
-                        &trans       &trans       &trans         &trans  &trans    &trans
+   &none   &none        &trans       &trans       &trans         &trans  &trans  &trans   &none    &none
                         >;
                 };
 
