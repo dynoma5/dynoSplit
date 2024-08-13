@@ -86,15 +86,15 @@
                 };
                 ADJUST {
 // -----------------------------------------------------------------------------------------
-// |     | bt3 | bt2 | bt1 | bt0 |   |     |   F7 |   F8   | F9  | F12 |
+// | clr  | bt3 | bt2 | bt1 | bt0 |   |     |   F7 |   F8   | F9  | F12 |
 // |     |     |     |QWER | DEF |   |     |   F4 |   F5   | F6  | F11 |
 // |     |     |     |     |     |   |     |   F1 |   F2   | F3  | F10 |
 //             |     |     |     |   |     |      |        |
                         bindings = <
-   &trans  &bt BT_SEL 3 &bt BT_SEL 2 &bt BT_SEL 1 &bt BT_SEL 0   &trans  &kp F7  &kp F8   &kp F9   &kp F12   
-   &trans  &trans       &trans       &to QWERTY   &to DEFAULT    &trans  &kp F4  &kp F5   &kp F6   &kp F11
-   &trans  &trans       &trans       &trans       &trans         &trans  &kp F1  &kp F2   &kp F3   &kp F10
-   &none   &none        &trans       &trans       &trans         &trans  &trans  &trans   &none    &none
+   &bt BT_CLR_ALL  &bt BT_SEL 3 &bt BT_SEL 2 &bt BT_SEL 1 &bt BT_SEL 0   &trans  &kp F7  &kp F8   &kp F9   &kp F12   
+   &trans          &trans       &trans       &to QWERTY   &to DEFAULT    &trans  &kp F4  &kp F5   &kp F6   &kp F11
+   &trans          &trans       &trans       &trans       &trans         &trans  &kp F1  &kp F2   &kp F3   &kp F10
+   &none           &none        &trans       &trans       &trans         &trans  &trans  &trans   &none    &none
                         >;
                 };
 
